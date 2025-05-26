@@ -1,12 +1,3 @@
-// export default function MoviesPage() {
-//   return (
-//     <div>
-//       <p>MoviesPage</p>
-//     </div>
-//   );
-// }
-
-// import axios from "axios";
 import { useEffect, useState } from "react";
 import { toast, Toaster } from "react-hot-toast";
 import getMovies from "../api";
