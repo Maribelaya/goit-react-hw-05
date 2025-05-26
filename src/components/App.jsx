@@ -4,9 +4,9 @@ import css from "./App.module.css";
 import NotFoundPage from "../pages/NotFoundPage.jsx";
 import { lazy, Suspense } from "react";
 
+import Navigation from "../components/Navigation/Navigation.jsx";
 
 const MoviesPage = lazy(() => import(`../pages/MoviesPage.jsx`));
-const Navigation = lazy(() => import(`../components/Navigation/Navigation`));
 const HomePage = lazy(() => import(`../pages/HomePage.jsx`));
 const MovieDetailsPage = lazy(() => import(`../pages/MovieDetailsPage`));
 const MovieCast = lazy(() => import(`../components/MovieCast.jsx`));
